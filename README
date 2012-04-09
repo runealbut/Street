@@ -1,4 +1,26 @@
+This is a mod for the game minetest.net
+
 Mod by RuneAlbut 
 Textures by sdzen
 
 http://minetest.net/forum/viewtopic.php?id=1567
+
+Howto make a Streetlight:
+
+Lamp:
++-------+----------+-------+
+|	| 	   |	   |
++-------+----------+-------+
+|	|coal_lump |	   |
++-------+----------+-------+
+|	|torch	   | 	   |
++-------+----------+-------+
+
+Lamppost:
++-------+----------+-------+
+|	| 	   |	   |
++-------+----------+-------+
+|	|coal_lump |	   |
++-------+----------+-------+
+|	|fence wood| 	   |
++-------+----------+-------+
