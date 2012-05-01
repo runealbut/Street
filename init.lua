@@ -23,7 +23,9 @@ minetest.register_node("street:lamp", {
 		--wall_bottom = {-0.1, -0.5, -0.1, 0.1, -0.5+0.6, 0.1},
 		--wall_side = {-0.5, -0.3, -0.1, -0.5+0.3, 0.3, 0.1},
 	},
-	material = minetest.digprop_constanttime(0.0),
+	--material = minetest.digprop_constanttime(0.0),
+	groups = {choppy=2,dig_immediate=3,flammable=1},
+	sounds = default.node_sound_defaults(),
 	legacy_wallmounted = true,
 })
 
@@ -50,5 +52,7 @@ minetest.register_node("street:lamppost", {
 		type = "fixed",
 		fixed = {-1/7, -1/2, -1/7, 1/7, 1/2, 1/7},
 	},
-	material = minetest.digprop_woodlike(0.75),
+	--material = minetest.digprop_woodlike(0.75),
+	groups = {choppy=2,dig_immediate=3,flammable=1},
+	sounds = default.node_sound_defaults(),
 })
